@@ -1,0 +1,28 @@
+{
+  "name": "learn-you-an-algebra",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:kevinbarabash/learn-you-an-algebra.git",
+  "author": "Kevin Barabash <kevinb7@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "^17.0.9",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "vite": "^2.6.7"
+  },
+  "dependencies": {
+    "@math-blocks/editor": "^0.0.5",
+    "@math-blocks/opentype": "^0.0.5",
+    "@math-blocks/react": "^0.0.5",
+    "@math-blocks/typesetter": "^0.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "slate": "^0.66.5",
+    "slate-react": "^0.66.7"
+  },
+  "scripts": {
+    "start": "vite"
+  }
+}
